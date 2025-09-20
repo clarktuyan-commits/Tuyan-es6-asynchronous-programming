@@ -1,0 +1,18 @@
+:root{--bg:#0f1722;--card:#0b1220;--accent:#6ee7b7;--muted:#94a3b8}
+*{box-sizing:border-box}
+body{font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; margin:0; background:linear-gradient(180deg,#071025 0%, #001526 100%); color:#e6eef6}
+.container{max-width:1000px;margin:32px auto;padding:20px}
+header h1{margin:0 0 6px;font-size:28px}
+.subtitle{margin:0 0 12px;color:var(--muted)}
+.controls{display:flex;gap:8px;margin-bottom:16px}
+.controls button{background:transparent;border:1px solid rgba(255,255,255,0.08);padding:8px 12px;border-radius:8px;color:inherit;cursor:pointer}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px}
+.card{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));padding:12px;border-radius:12px;border:1px solid rgba(255,255,255,0.03)}
+.card h3{margin:0 0 6px;font-size:18px}
+.meta{color:var(--muted);font-size:13px;margin-bottom:8px}
+.skills{display:flex;flex-wrap:wrap;gap:6px}
+.skill{background:rgba(255,255,255,0.03);padding:4px 8px;border-radius:999px;font-size:12px}
+footer{margin-top:20px;color:var(--muted)}
+
+
+.empty{color:var(--muted);padding:20px;text-align:center}
