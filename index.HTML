@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Students Directory — ES6 Asynchronous Programming</title>
+  <meta name="description" content="An ES6 + Fetch API example displaying student data from a JSON file using Promises and async/await." />
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <main class="container">
+    <header>
+      <h1>Students Directory</h1>
+      <p class="subtitle">Demonstration: ES6 Classes, Fetch API, Promises (.then) and Async/Await</p>
+      <div class="controls">
+        <button id="loadThen">Load (using .then)</button>
+        <button id="loadAsync">Load (using async/await)</button>
+        <button id="clear">Clear</button>
+      </div>
+    </header>
+
+    <section id="output" class="grid">
+    </section>
+
+    <footer>
+      <p>Data fetched from <code>data/students.json</code></p>
+    </footer>
+  </main>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
