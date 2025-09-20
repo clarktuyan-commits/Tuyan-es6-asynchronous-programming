@@ -1,0 +1,9 @@
+{
+"students": [
+{ "id": 1, "name": "Ana Silverio", "course": "Computer Science", "year": 3, "gpa": 3.9, "skills": ["JavaScript","HTML","CSS"], "email": "ana.s@example.com" },
+{ "id": 2, "name": "Miguel Santos", "course": "Information Technology", "year": 2, "gpa": 3.6, "skills": ["Python","Django"], "email": "miguel.s@example.com" },
+{ "id": 3, "name": "Liza Cruz", "course": "Software Engineering", "year": 4, "gpa": 3.8, "skills": ["Java","Spring","Docker"], "email": "liza.c@example.com" },
+{ "id": 4, "name": "Jon Rivera", "course": "Data Science", "year": 1, "gpa": 3.5, "skills": ["R","Pandas"], "email": "jon.r@example.com" },
+{ "id": 5, "name": "Maya Lopez", "course": "Computer Engineering", "year": 4, "gpa": 3.95, "skills": ["C++","Verilog","FPGA"], "email": "maya.l@example.com" }
+]
+}
